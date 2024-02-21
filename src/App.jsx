@@ -5,8 +5,8 @@ import Fullstack from './component/Fullstack';
 import Datascience from './component/Datascience';
 import Cybersecurity from './component/Cybersecurity';
 import Career from './component/Career';
-import Navbar1 from './component/Navbar1';
-import Header from './component/Header';
+// import Navbar1 from './component/Navbar1';
+// import Header from './component/Header';
 import { BrowserRouter, Routes, Route} from 'react-router-dom';
 
 const App = () => {
@@ -21,15 +21,7 @@ const data=[
     month:"February",
     year:"2024",
   },
-  {
-    image:"https://www.guvi.in/blog/wp-content/uploads/2023/04/javascript-animated-image-1200x675.jpg",
-     head:"DataScience Development",
-     content:"Master JavaScript Frontend Roadmap: From Novice to Expert [2024]",
-     information:"Are you eager to learn JavaScript? Want to dive deep into the JavaScript frontend roadmap? Want to know what are the skills and technologies required to become a front-end developer?",
-     date:"17",
-     month:"February",
-     year:"2024",
-   },
+  
   {
   image:"https://www.guvi.in/blog/wp-content/uploads/2024/02/Feature-image-Backend-Development-Roadmap-A-Complete-Guide.webp",
   head:"Fullstack development",
@@ -49,15 +41,7 @@ const data=[
   month:"February",
   year:"2024",
 },
-{
-  image:"https://www.guvi.in/blog/wp-content/uploads/2023/12/Feature-image-Non-Coding-Jobs-in-Cybersecurity.webp",
-   head:"Cybersecurity Development",
-   content:"Non-Coding Jobs in Cybersecurity: A Comprehensive Guide",
-   information:"In the rapidly evolving field of cybersecurity, there is a common misconception that coding skills",
-   date:"28",
-   month:"October",
-   year:"2023",
- },
+
 {
   image:"https://www.guvi.in/blog/wp-content/uploads/2024/02/Feature-image-Comprehensive-List-of-Project-Ideas-for-Frontend-Development.webp",
   head:"Fullstack development",
@@ -176,29 +160,12 @@ const data=[
   month:"February",
   year:"2024",
 },
-{
-  image:"https://www.guvi.in/blog/wp-content/uploads/2024/02/Feature-01.png",
-  head:"Career Development",
-  content:"Brainstorming in Design Thinking – A Complete Guide",
-  inforamtion:"Brainstorming is a group activity where we all share ideas to solve problems, especially when",
-  date:"17",
-  month:"February",
-  year:"2024",
-},
+
 {
   image:"https://www.guvi.in/blog/wp-content/uploads/2024/02/Feature-image-Top-B2B-Digital-Marketing-Strategies.webp",
   head:"Career Development",
   content:"Top 15 B2B Digital Marketing Strategies in 2024 [Updated]",
   information:"It was found that 89% of the B2B buyers research the products online while making the",
-  date:"17",
-  month:"February",
-  year:"2024",
-},
-{
- image:"https://www.guvi.in/blog/wp-content/uploads/2023/04/javascript-animated-image-1200x675.jpg",
-  head:"Career Development",
-  content:"Master JavaScript Frontend Roadmap: From Novice to Expert [2024]",
-  information:"Are you eager to learn JavaScript? Want to dive deep into the JavaScript frontend roadmap? Want to know what are the skills and technologies required to become a front-end developer?",
   date:"17",
   month:"February",
   year:"2024",
@@ -225,6 +192,7 @@ const data=[
    year:"2024",
  },
  {
+
   image:"https://www.guvi.in/blog/wp-content/uploads/2023/11/feature-image-product-based-companies-for-data-science-freshers.webp",
    head:"DataScience Development",
    content:"Top Product-Based Companies for Data Science Freshers",
@@ -270,33 +238,9 @@ const data=[
    year:"2023",
  },
  
- {
-  image:"https://www.guvi.in/blog/wp-content/uploads/2022/12/Yellow-Blue-Illustration-Business-Blog-Banner-1536x864.png",
-   head:"Cybersecurity Development",
-   content:"Cybersecurity Vs Ethical Hacking: Top 10 Differences",
-   information:"Cybersecurity & Ethical hacking and have been key in making sure that your data online",
-   date:"28",
-   month:"October",
-   year:"2023",
- },
- {
-  image:"https://www.guvi.in/blog/wp-content/uploads/2022/12/cybersecuity-.gif",
-   head:"Cybersecurity Development",
-   content:"What is Cybersecurity? Importance and its uses & the growing challenges in 2023!",
-   information:"Look around today, you will witness that we are more reliant on technology and devices",
-   date:"28",
-   month:"October",
-   year:"2023",
- },
- {
-  image:"https://www.guvi.in/blog/wp-content/uploads/2022/11/Teal-Illustration-Digital-Business-Blog-Banner-1-1536x864.png",
-   head:"Cybersecurity Development",
-   content:"Non-Coding Jobs in Cybersecurity: A Comprehensive Guide",
-   information:"Cybersecurity refers to the protection of devices, processes, infrastructure, and assets of the organization from ",
-   date:"28",
-   month:"October",
-   year:"2023",
- },
+
+ 
+ 
  {
   image:"https://www.guvi.in/blog/wp-content/uploads/2023/12/Feature-image-Non-Coding-Jobs-in-Cybersecurity.webp",
    head:"Cybersecurity Development",
@@ -306,24 +250,8 @@ const data=[
    month:"October",
    year:"2023",
  },
- {
-  image:"https://www.guvi.in/blog/wp-content/uploads/2022/06/Types-of-Cyber-Security-Attacks-and-How-to-Minimize-the-Impact-1536x480.jpg",
-   head:"Top 7 Cyber Security Attacks in Real Life",
-   content:"Non-Coding Jobs in Cybersecurity: A Comprehensive Guide",
-   information:"Cyber security attacks are the type of actions that are designed to destroy, steal, modify,",
-   date:"28",
-   month:"October",
-   year:"2023",
- },
- {
-  image:"https://www.guvi.in/blog/wp-content/uploads/2020/11/cyber-security-e1614342903477.png",
-   head:"Cybersecurity Development",
-   content:"The Cybersecurity Surge: 5 Must-Have Cybersecurity Certifications!",
-   information:"There is something fascinating about a lone hacker in black hoodies using a single system",
-   date:"28",
-   month:"October",
-   year:"2023",
- },
+ 
+ 
  {
   image:"https://www.guvi.in/blog/wp-content/uploads/2021/03/The-Ultimate-%E2%80%A8Cybersecurity-Roadmap-for-Beginners.webp",
    head:"Cybersecurity Development",
@@ -342,15 +270,7 @@ const data=[
    month:"October",
    year:"2023",
  },
- {
-  image:"https://www.guvi.in/blog/wp-content/uploads/2023/07/feature-image-UIUX-Designer-Roles-Responsibilities-Job-Description.jpg",
-   head:"Career Development",
-   content:"UI/UX Designer Job Description and Roles & Responsibilities",
-   information:"UI UX is the abbreviated word that’s been rocking the trend over the years, especially",
-   date:"28",
-   month:"October",
-   year:"2023",
- },
+ 
  {
   image:"https://www.guvi.in/blog/wp-content/uploads/2021/03/The-Ultimate-%E2%80%A8Cybersecurity-Roadmap-for-Beginners.webp",
    head:"Career Development",
@@ -396,8 +316,8 @@ const data=[
 
     <div>
      <BrowserRouter>
-     <Navbar1 />
-     <Header />
+     {/* <Navbar1 /> */}
+     {/* <Header /> */}
      <Navbar />
 
      <Routes>

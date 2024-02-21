@@ -30,10 +30,8 @@ Here I have kept in following files and the files are:
 
   6. Fullstack.jsx
 
-  7. Header.jsx
+  7. Navbar.jsx
+  
+  8. App.jsx 
 
-  8. Navbar.jsx
 
-  9. Navbar1.jsx
-   
- 10. App.jsx   

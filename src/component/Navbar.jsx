@@ -12,17 +12,17 @@ const Navbar = () => {
             </nav>
             <nav>
                 <div className='row'>
-            <div className="container" style={{ textAlign: 'normal', fontFamily: 'Arial', fontWeight: 'bold' }}>
+            <div className="container"  >
             
             
-            <Link to='/' style={{ fontSize: '28px',display: 'inline-block',color:'black',textDecoration: 'none'}}>ALL &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</Link>
-                <Link to='/fullstack'style={{ fontSize: '28px',display: 'inline-block',color:'black',textDecoration: 'none'}}>FULLSTACK DEVELOPMENT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </Link>
-                <Link to='/datascience' style={{ fontSize: '28px',display: 'inline-block',color:'black',textDecoration: 'none'}}>DATASCIENCE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</Link>
-                <Link to='/cybersecurity' style={{ fontSize: '28px',display: 'inline-block',color:'black',textDecoration: 'none'}}>CYBER SECURITY&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</Link>
-                <Link to='/career' style={{ fontSize: '28px',display: 'inline-block',color:'black',textDecoration: 'none'}}>CAREER&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</Link></div></div>
+            
+            <Link to='/' style={{ marginLeft:'220px',marginRight: '100px', color: 'black', fontSize: '28px',textDecoration: 'none',fontFamily: 'Arial', fontWeight: 'bold' }}>ALL</Link>
+                        <Link to='/fullstack' style={{ marginRight: '100px', color: 'black', fontSize: '28px',textDecoration: 'none',fontFamily: 'Arial', fontWeight: 'bold' }}>FULLSTACK DEVELOPMENT</Link>
+                        <Link to='/datascience' style={{ marginRight: '100px', color: 'black', fontSize: '28px',textDecoration: 'none',fontFamily: 'Arial', fontWeight: 'bold' }}>DATA SCIENCE</Link>
+                        <Link to='/cybersecurity' style={{ marginRight: '100px', color: 'black', fontSize: '28px',textDecoration: 'none',fontFamily: 'Arial', fontWeight: 'bold' }}>CYBER SECURITY</Link>
+                        <Link to='/career' style={{ marginRight: '100px',color: 'black', fontSize: '28px',textDecoration: 'none',fontFamily: 'Arial', fontWeight: 'bold' }}>CAREER</Link></div></div>
             </nav><br />
-            
-            <div class="border:1px"></div>
+         
         </div>
     );
 };

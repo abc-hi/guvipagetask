@@ -11,7 +11,7 @@ const Cybersecurity = ({ data }) => {
         <div className='d-flex flex-wrap'>
 
         <div>
-            <h1>Cybersecurity</h1>
+            {/* <h1>Cybersecurity</h1> */}
             <div className="row row-cols-1 row-cols-md-3 g-4">
                 {CybersecurityData.map((item, index) => (
                     <div className="col" key={index}>
