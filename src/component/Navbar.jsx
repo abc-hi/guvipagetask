@@ -16,7 +16,7 @@ const Navbar = () => {
             
             
             
-            <Link to='/' style={{ marginLeft:'120px',marginRight: '50px', color: 'black', fontSize: '28px',textDecoration: 'none',fontFamily: 'Arial', fontWeight: 'bold' }}>ALL</Link>
+            <Link to='/' style={{ marginLeft:'120px',marginRight: '50px', color: 'black', fontSize: '18px',textDecoration: 'none',fontFamily: 'Arial', fontWeight: 'bold' }}>ALL</Link>
                         <Link to='/fullstack' style={{ marginRight: '50px', color: 'black', fontSize: '28px',textDecoration: 'none',fontFamily: 'Arial', fontWeight: 'bold' }}>FULLSTACK DEVELOPMENT</Link>
                         <Link to='/datascience' style={{ marginRight: '50px', color: 'black', fontSize: '28px',textDecoration: 'none',fontFamily: 'Arial', fontWeight: 'bold' }}>DATA SCIENCE</Link>
                         <Link to='/cybersecurity' style={{ marginRight: '50px', color: 'black', fontSize: '28px',textDecoration: 'none',fontFamily: 'Arial', fontWeight: 'bold' }}>CYBER SECURITY</Link>
